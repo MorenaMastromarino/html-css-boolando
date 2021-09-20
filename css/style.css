@@ -58,3 +58,44 @@ img {
   color: grey;
 }
 
+/* labels */
+.image {
+  position: relative;
+}
+
+.heart::after {
+  content: '\02665';
+  position: absolute;
+  top: 5px;
+  right: 0;
+  background-color: white;
+  padding: 2px 4px;
+  font-size: 10px;
+}
+
+.label .discount::after {
+  content: '\00025';
+}
+
+.label {
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  font-size: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+.label .discount {
+  background-color: #EB0037;
+  padding: 2px 3px;
+}
+
+.label .sostenibile {
+  background-color: #00875A;
+  padding: 2px 3px;
+}
+
+
+
+
