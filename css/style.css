@@ -19,6 +19,7 @@ img {
 
 .row{
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .card {
@@ -95,6 +96,22 @@ img {
   background-color: #00875A;
   padding: 2px 3px;
 }
+
+/* hover */
+.image:hover, .image:active {
+  cursor: pointer;
+}
+
+.image .img-a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image .img-a:hover {
+  display: none;
+}
+
 
 
 
