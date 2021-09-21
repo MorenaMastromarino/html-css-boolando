@@ -103,16 +103,18 @@ img {
 }
 
 .image .img-a {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
 }
 
-.image .img-a:hover {
+.image .img-b {
   display: none;
 }
 
+.image:hover .img-a {
+  display: none;
+}
 
-
-
+.image:hover .img-b {
+  display: block;
+}
 
