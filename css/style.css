@@ -59,6 +59,10 @@ img {
   color: grey;
 }
 
+.prezzi {
+  line-height: 6px;
+}
+
 /* labels */
 .image {
   position: relative;
